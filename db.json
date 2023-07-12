@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
+      "user_name": "Paul Thomas",
+      "handle": "paulthomas",
+      "bio": "I write code, hack code and fix stuff.",
+      "link": "https://www.bbc.co.uk/",
+      "img": "https://i.imgur.com/6Jrf9OF.gif",
+      "instagram_url": "https://www.instagram.com/aniakubow/",
+      "followers": [
+        {
+          "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7275"
+        },
+        {
+          "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7276"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7275",
+      "user_name": "Bobby Davro",
+      "handle": "bobbydavro",
+      "bio": "I write jokes.",
+      "link": "https://www.cnn.co.uk/",
+      "img": "https://i.imgur.com/YH2OiRP.png",
+      "instagram_url": "https://www.instagram.com/bobbydavro/",
+      "followers": [
+        {
+          "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7274"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7276",
+      "user_name": "Jackie Chan",
+      "handle": "jackiechan",
+      "bio": "I do King Fu.",
+      "link": "https://www.jackiechan.com/",
+      "img": "https://i.imgur.com/W6zg0KN.jpeg",
+      "instagram_url": "https://www.instagram.com/jackiechan",
+      "followers": [
+        {
+          "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7275"
+        }
+      ]
+    }
+  ],
+  "threads": []
+}
