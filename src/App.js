@@ -32,7 +32,7 @@ const App = () => {
       {user && (
         <div className="app">
           <Nav url={user.instagram_url}></Nav>
-          <Header></Header>
+          <Header user={user}></Header>
           <Feed></Feed>
           {/*<PopUp></PopUp>*/}
         </div>

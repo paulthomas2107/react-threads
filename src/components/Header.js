@@ -1,21 +1,21 @@
-const Header = () => {
+const Header = ({ user }) => {
   return (
     <header>
       <div className="info-container">
         <div className="user-info-container">
-          <h1>Username</h1>
+          <h1>{user.user_name}</h1>
           <p>
-            Handle <span className="threads-info">Threads.net</span>
+            {user.handle} <span className="threads-info">Threads.net</span>
           </p>
         </div>
         <div className="img-container">
-          <img src="" alt="Profile avatar"></img>
+          <img src={user.img} alt="Profile avatar"></img>
         </div>
       </div>
-      <p>Bio</p>
+      <p>{user.bio}</p>
       <div className="sub-info-container">
         <p className="sub-text">
-          X Followers • <a href="/">Link</a>
+          {user.followers.length} Followers • <a href="/">Link</a>
         </p>
       </div>
       <button
