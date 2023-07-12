@@ -22,6 +22,10 @@ const Header = () => {
       >
         Share Profile
       </button>
+      <div className="button-container">
+        <button>Threads</button>
+        <button>Replies</button>
+      </div>
     </header>
   );
 };
