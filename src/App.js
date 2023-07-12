@@ -25,15 +25,19 @@ const App = () => {
     getUser();
   }, []);
 
-  console.log(user)
-  
+  console.log(user);
+
   return (
-    <div className="app">
-      <Nav></Nav>
-      <Header></Header>
-      <Feed></Feed>
-      {/*<PopUp></PopUp>*/}
-    </div>
+    <>
+      {user && (
+        <div className="app">
+          <Nav url={user.instagram_url}></Nav>
+          <Header></Header>
+          <Feed></Feed>
+          {/*<PopUp></PopUp>*/}
+        </div>
+      )}
+    </>
   );
 };
 
