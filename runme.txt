@@ -1,0 +1,5 @@
+cd react-threads
+npm run start
+
+cd react-threads
+npx json-server --watch db.json  
