@@ -1,14 +1,16 @@
 const Header = () => {
   return (
     <header>
-      <div className="user-info-container">
-        <h1>Username</h1>
-        <p>
-          Handle <span className="threads-info">Threads.net</span>
-        </p>
-      </div>
-      <div className="img-container">
-        <img src="" alt="Profile avatar"></img>
+      <div className="info-container">
+        <div className="user-info-container">
+          <h1>Username</h1>
+          <p>
+            Handle <span className="threads-info">Threads.net</span>
+          </p>
+        </div>
+        <div className="img-container">
+          <img src="" alt="Profile avatar"></img>
+        </div>
       </div>
       <p>Bio</p>
       <div className="sub-info-container">
@@ -23,7 +25,7 @@ const Header = () => {
         Share Profile
       </button>
       <div className="button-container">
-        <button>Threads</button>
+        <button className="current">Threads</button>
         <button>Replies</button>
       </div>
     </header>
