@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": 0,
       "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
       "user_name": "Paul Thomas",
       "handle": "paulthomas",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7275",
       "user_name": "Bobby Davro",
       "handle": "bobbydavro",
@@ -34,11 +34,11 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "user_uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7276",
       "user_name": "Jackie Chan",
       "handle": "jackiechan",
-      "bio": "I do King Fu.",
+      "bio": "I do Kung Fu.",
       "link": "https://www.jackiechan.com/",
       "img": "https://i.imgur.com/W6zg0KN.jpeg",
       "instagram_url": "https://www.instagram.com/jackiechan",
@@ -49,5 +49,58 @@
       ]
     }
   ],
-  "threads": []
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "2023-07-12T14:04:24.537Z",
+      "thread_from": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World of Bobby Davro",
+      "likes": [
+        {
+          "uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7275"
+        },
+        {
+          "uuid": "acad37c7-7ec8-4e2a-921b-ed140ddc7276"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "2023-07-12T15:08:24.537Z",
+      "thread_from": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "What is a chocoolate cake made from ?",
+      "likes": []
+    },
+    {
+      "id": 2,
+      "timestamp": "2023-07-12T16:08:24.537Z",
+      "thread_from": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Are Manchester United a decent team ?",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "2023-07-12T19:08:24.537Z",
+      "thread_from": "acad37c7-7ec8-4e2a-921b-ed140ddc7275",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "I am a shit comic",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "2023-07-12T20:08:24.537Z",
+      "thread_from": "acad37c7-7ec8-4e2a-921b-ed140ddc7275",
+      "thread_to": "acad37c7-7ec8-4e2a-921b-ed140ddc7274",
+      "reply_to": 3,
+      "text": "Eat my shirts",
+      "likes": []
+    }
+  ]
 }
