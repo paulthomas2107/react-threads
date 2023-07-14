@@ -1,4 +1,4 @@
-const Header = ({ user }) => {
+const Header = ({ user, viewThreadsFeed, setViewThreadsFeed }) => {
   return (
     <header>
       <div className="info-container">
@@ -16,7 +16,7 @@ const Header = ({ user }) => {
       <div className="sub-info-container">
         <p className="sub-text">
           {user.followers.length} Followers •{' '}
-          <a href={user.link}>{user.link}</a>
+          <a href={user.link}>{user.link.replace('https://www.', '')}</a>
         </p>
       </div>
       <button
@@ -26,8 +26,18 @@ const Header = ({ user }) => {
         Share Profile
       </button>
       <div className="button-container">
-        <button className="current">Threads</button>
-        <button>Replies</button>
+        <button
+          className={viewThreadsFeed ? 'current' : null}
+          onClick={() => setViewThreadsFeed(true)}
+        >
+          Threads
+        </button>
+        <button
+          className={!viewThreadsFeed ? 'current' : null}
+          onClick={() => setViewThreadsFeed(false)}
+        >
+          Replies
+        </button>
       </div>
     </header>
   );
